@@ -2,6 +2,7 @@ from redbot.core import commands
 import datetime
 import asyncio
 import random
+import time
 
 
 class giveaway(commands.Cog):
