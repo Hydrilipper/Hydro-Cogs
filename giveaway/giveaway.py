@@ -14,7 +14,7 @@ class giveaway(commands.Cog):
     @commands.command()
     async def giveaway(self, ctx, time: int, *, prize):
         """The Act of the Giveaway"""
-        giveawayembed = discord.Embed(**kwargs)(
+        giveawayembed = discord.Embed(
             title="🎉Look a Giveaway!🎉",
             colour=discord.Color.purple()
         )
@@ -38,7 +38,7 @@ class giveaway(commands.Cog):
                 winner = random.choice(users)
 
         if winner is not None:
-            endembed = discord.Embed(**kwargs)(
+            endembed = discord.Embed(
                 title="Giveaway ended!",
                 description="Prize: {}\nWinner: {}".format(prize, winner))
 
