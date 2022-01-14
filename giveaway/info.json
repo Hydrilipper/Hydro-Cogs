@@ -1,0 +1,13 @@
+{
+    "author" : ["Hydrilipper"],
+    "install_msg" : "You've successfully installed the Giveaway Cog!",
+    "name" : "Giveaway",
+    "short" : "Allows users to create giveaways",
+    "description" : "Allow users to create giveaways, or enter giveaways via reaction.",
+    "required_cogs": {},
+    "requirements": [],
+    "min_bot_version": "1.0.0",
+    "max_bot_version": "0.0.0",
+    "tags": [],
+    "type": "COG"
+}
