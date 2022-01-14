@@ -1,0 +1,9 @@
+{
+    "author" : ["Hydrilipper"],
+    "install_msg" : "Thanks for installing Hydro-Cogs! I hope its what you are looking for!",
+    "name" : "Hydro-Cogs",
+    "short" : "Hydrocog",
+    "description" : "These cogs were raised humanely and are sensitive, please treat them well",
+    "min_python_version": [1, 0, 0],
+	"tags": []
+}
