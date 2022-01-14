@@ -38,7 +38,7 @@ class giveaway(commands.Cog):
                 winner = random.choice(users)
 
         if winner is not None:
-            endembed = discord.Embed(
+            endembed = discord.Embed(**kwargs)(
                 title="Giveaway ended!",
                 description="Prize: {}\nWinner: {}".format(prize, winner))
 
